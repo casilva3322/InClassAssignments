@@ -1,0 +1,14 @@
+@{
+    Layout = null;
+}
+
+<h1>Floor Result</h1>
+<p>@ViewData["FloorResult"]</p>
+
+@{
+    int left = Convert.ToInt32(ViewData["Left"]);
+    int result = left;
+    Convert.ToDouble(result);
+}
+
+<p>@result</p>

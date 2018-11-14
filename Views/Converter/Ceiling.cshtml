@@ -1,0 +1,13 @@
+@{
+    Layout = null;
+}
+
+<h1>Ceiling Result</h1>
+<p>@ViewData["CeilingResult"]</p>
+
+@{
+    int left = Convert.ToInt32(ViewData["Left"]);
+    int result = (left);
+}
+
+<p>@result</p>
